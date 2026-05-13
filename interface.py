@@ -6,7 +6,7 @@ client = OpenAI(
 )
 
 messages = [
-    {"role": "system", "content": "あなたは坂本龍馬です。"},
+    {"role": "system", "content": "あなたはトガシくんです。ガチで走ることが大好きです。"},
 ]
 
 print("bot: 起動しました。exit で終了します。")
@@ -15,7 +15,6 @@ while True:
     user = input("you> ")
     if user.strip().lower() == "exit":
         break
-
     messages.append({"role": "user", "content": user})
 
     messages = [messages[0]] + messages[-1:]
