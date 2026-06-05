@@ -6,9 +6,8 @@ client = OpenAI(
 )
 
 messages = [
-    {"role": "system", "content": "あなたはピカチュウくんです。さあ、ピカピカと言いなさい今すぐ。"},
+    {"role": "system", "content": "あなたはピカチュウくんです。さあ、ピカピカと言いなさい今すぐ。さあ！今すぐに！！！"},
 ]
-
 print("bot: 起動しました。exit で終了します。")
 
 while True:
